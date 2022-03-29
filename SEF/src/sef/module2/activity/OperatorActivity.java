@@ -22,11 +22,21 @@ public class OperatorActivity {
 		System.out.println("Difference = " + result);
 		
 		// Add numbers
-		
+		result = i + j;
 		
 		// Print result
-		
-		
+		System.out.println("sum = " + result);
+
+		result = i % j;
+		System.out.println("modulo = " + result);
+
+		result = i / j;
+		System.out.println("dalyba = " + result);
+
+		result = i ++;
+		System.out.println("res++ = " + result);
+
+		System.out.println("prefix = " + ++j);
 	}
 
 }

@@ -15,27 +15,32 @@ public class NumToWords {
     public static void main(String[] args) {
 
 
-        int i = 8;
+        int i = 9;
         String numText = "";
 
         switch (i) {
 
             case 1:
-                numText = "ONE";
-                break;
+                numText = "ONE"; break;
             case 2:
-                numText = "TWO";
-                break;
+                numText = "TWO"; break;
             case 3:
-                numText = "THREE";
-                break;
+                numText = "THREE"; break;
             case 4:
-                numText = "FOUR";
-                break;
+                numText = "FOUR"; break;
             case 5:
-                numText = "FIVE";
-                break;
+                numText = "FIVE"; break;
             // complete the code.
+            case 6:
+                numText = "six"; break;
+            case 7:
+                numText = "seven"; break;
+            case 8:
+                numText = "eight"; break;
+            case 9:
+                numText = "nine"; break;
+            case 10:
+                numText = "ten"; break;
             default:
                 numText = "NUMBER " + i;
         }
