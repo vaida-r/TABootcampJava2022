@@ -7,8 +7,7 @@ public class Person {
 
 
     public Person(){
-//        this.name = "Vaida";
-//        this.age = 46;
+
     }
 
     public Person(String name, int age) throws CustomException {
@@ -51,10 +50,5 @@ public class Person {
         System.out.println("My name is " + name + " and I'm " + age + " years old.");
     }
 
-    public static void main(String[] args) throws CustomException {
-        Person pr = new Person("V2",20);
-        pr.announce() ;
-
-    }
 
 }

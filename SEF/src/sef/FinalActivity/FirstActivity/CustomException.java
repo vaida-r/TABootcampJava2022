@@ -11,8 +11,5 @@ public class CustomException extends Exception{
             return "Please set another name :)";
         }
 
-//    public CustomException (String message){
-//        super(message);
-//    }
 
 }
