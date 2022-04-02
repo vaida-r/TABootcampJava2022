@@ -1,10 +1,12 @@
 package sef.FinalActivity.Extra;
 
 
+import java.util.Scanner;
+
 public class Fibonacci {
 
 
-    public static void printFibonacci(int fib){
+    private static void printFibonacci(int fib){
 
         int f1 = 0;
         int f2 = 1 ;
@@ -33,7 +35,11 @@ public class Fibonacci {
 
     public static void main(String[] args){
 
-        printFibonacci(15);     // enter value in braces (>=1, int);
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter how many Fibonacci numbers to print: ");
+        int howMany = keyboard.nextInt();
+
+        printFibonacci(howMany);
 
     }
 
